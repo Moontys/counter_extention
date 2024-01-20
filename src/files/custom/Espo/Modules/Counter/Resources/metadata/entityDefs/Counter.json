@@ -1,0 +1,20 @@
+{
+    "fields":{
+        "diskSize":{
+            "type":"float",
+            "required":true
+        },
+        "size":{
+            "type":"float",
+            "required":true
+        },
+        "numberOfRecords":{
+            "type":"int",
+            "required":true
+        },
+        "numberOfUsers":{
+            "type":"int",
+            "required":true
+        }
+    }
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "route": "/Counters",
+        "method": "get",
+        "actionClassName": "Espo\\Modules\\Counter\\Api\\GetCounters"
+    }
+]
