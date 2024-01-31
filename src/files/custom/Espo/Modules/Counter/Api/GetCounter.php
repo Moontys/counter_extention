@@ -32,7 +32,7 @@ class GetCounters implements Action
                 'numberOfUsers' => $counter->get('numberOfUsers')
             ];
         }
-        
-        return ResponseComposer::json($);
+
+        return ResponseComposer::json($counterData);
     }
 }
