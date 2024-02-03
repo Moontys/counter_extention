@@ -6,6 +6,7 @@ use Espo\Core\Api\Request;
 use Espo\ORM\EntityManager;
 use Espo\Core\Api\Response;
 use Espo\Core\Api\ResponseComposer;
+use Espo\Modules\Counter\Entities\Counter;
 
 class GetCounters implements Action
 {
