@@ -12,9 +12,9 @@ class GetCounters implements Action
 {
     private EntityManager $entityManager;
 
-    public function __construct(EntityManager $entityManager) 
+    public function __construct(EntityManager $entityManagerForConstruct) 
     {
-        $this->entityManager = $entityManager;
+        $this->entityManager = $entityManagerForConstruct;
     }
 
     public function process(Request $request): Response
