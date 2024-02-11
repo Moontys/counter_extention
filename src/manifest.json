@@ -1,6 +1,6 @@
 {
     "name": "Mantas Stirpeika counter_extension",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "acceptableVersions": [
        ">=7.4.0"
     ],

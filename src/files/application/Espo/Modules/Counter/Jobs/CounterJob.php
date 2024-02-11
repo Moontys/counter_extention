@@ -10,11 +10,10 @@ use Espo\ORM\Repository\RDBRepository;
 
 class CounterJob implements Job
 {
-    private EntityManager $entityManager; // Atributes of Class
+    private EntityManager $entityManager;   // Attributes of Class
 
-    public function __construct(
-        EntityManager $entityManager
-    ) {
+    public function __construct(EntityManager $entityManager) { // Depednacy Injection
+
         $this->entityManager = $entityManager;
     }
     

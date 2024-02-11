@@ -3,8 +3,21 @@
     "layouts": true,
     "tab": true,
     "acl": true,
-    "module": "Counter",
+    "aclPortal": true,
+    "aclPortalLevelList": [
+        "all",
+        "account",
+        "contact",
+        "own",
+        "no"
+    ],
     "customizable": true,
-    "stream": true,
-    "importable": true
+    "importable": true,
+    "notifications": true,
+    "stream": false,
+    "disabled": false,
+    "type": "Base",
+    "module": "Counter",
+    "object": true,
+    "isCustom": true
 }

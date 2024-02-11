@@ -1,5 +1,5 @@
 {
-    "view": "views/admin/integrations/edit",
+    "view": "views/admin/integrations/oauth2",
     "fields": {
         "apiKey": {
             "type": "varchar",
